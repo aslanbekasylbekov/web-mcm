@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:ital,wght@0,300;0,500;1,900&display=swap');
+*{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    display:flex;
+    height:10vh;
+    color:black;
+}
+.about h1{
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.about h1 bold{
+    color:tomato;
+}
+article{
+    display:flex;
+    height:10vh;
+    color:black;
+}
+.cards{
+    margin-top:350px;
+}
+.cards img{
+    display: flex;
+    height:310px;
+    float:left;
+    border-radius: 10px;
+}
+.card{
+    color:rgb(14, 14, 15);
+    margin-top:-10px;
+    margin-left: 270px;
+}
+.nairobi{
+    margin-top:620px;
+}
+.nairobi img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.tokyo{
+    margin-top:900px;
+}
+.tokyo img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.helsinki{
+    margin-top:1185px;
+}
+.helsinki img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}

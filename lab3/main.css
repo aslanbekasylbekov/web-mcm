@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(https://data2.nssmag.com/images/galleries/16184/la-casa-de-papel-cover%281%29.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header{
+    display: flex;
+    justify-content: space-between; /*po osy x vyravnivaet elementy*/
+    align-items: center;
+    height:10vh;
+    width:100%;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: rgb(9,9,9);
+}
+.logo img{
+    height: 7vh;
+    margin-left: -30px;
+    margin-top: -70px;
+}
+.logo h1{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: -35px;
+    margin-left: 30px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding:0px 25px;
+    color:aliceblue;
+}
+.nav ul li a:hover{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.user{
+    cursor: pointer;
+    color: rgba(249, 248, 248, 0.901);
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color:rgb(8, 8, 8);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+.user a:hover{
+    background-color: black;
+    color:aliceblue;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 0px;
+}
+table{
+    position: absolute;
+    color:aliceblue;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.emperor{
+    margin-left: 150px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.reign{
+    padding: 10px;
+}
+.poster{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.poster img{
+    height:420px;
+    float:left;
+    border-radius: 10px;
+}
+section1{
+    display:flex;
+    color:aliceblue;
+    height:10vh;
+    width:100%;
+}
+.serial{
+    cursor: pointer;
+    color: rgba(249, 248, 248, 0.901);
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.serial a{
+    text-decoration: none;
+    color:rgb(8, 8, 8);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:10px 30px;
+    
+}
+.serial a:hover{
+    font-weight: bolder;
+    background-color: black;
+    color:aliceblue;
+}
+.about{
+    margin-top:160px;
+    margin-left: 100px;
+}
+.about h3{
+    font-weight: bolder;
+}
+.cards{
+    margin-top:560px;
+    margin-left: 100px;
+}
+.cards img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.card{
+    color:rgb(14, 14, 15);
+    margin-top:-10px;
+    margin-left: 270px;
+}
+.nairobi{
+    margin-top:850px;
+    margin-left: 100px;
+}
+.nairobi img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.tokyo{
+    margin-top:1130px;
+    margin-left: 100px;
+}
+.tokyo img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.helsinki{
+    margin-top:1430px;
+    margin-left: 100px;
+}
+.helsinki img{
+    display: flex;
+    height:320px;
+    float:left;
+    border-radius: 10px;
+}
+.footer{
+    display:flex;
+    height:10vh;
+    width:100%;
+}
+.character{
+    margin-top:50px;
+    margin-left: 100px;
+}
+.character a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.character a:hover{
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}

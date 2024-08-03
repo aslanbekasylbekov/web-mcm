@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorization Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="authorization-form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <button type="button" onclick="validateForm()">Submit</button>
+  </form>
+
+  <div id="warnings" class="warning"></div>
+  <script src="auto.js">
+  </script>
+</body>
+</html>

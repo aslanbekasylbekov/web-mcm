@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background: rgb(249, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*толщина холста — 1 пиксель, белый цвет*/
+canvas {
+    border: 1px solid rgb(11, 11, 11);
+}
